@@ -8,7 +8,7 @@
 }
 
 .flo img {
-    color: black;
+  color: black;
 }
 
 .linkedin img {
@@ -19,9 +19,9 @@
 }
 
 .github img {
-    height: 40px;
-    width: auto;
-    padding-left: 150px;
+  height: 40px;
+  width: auto;
+  padding-left: 150px;
 }
 
 .navLinks {

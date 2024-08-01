@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './ProjectSlider.module.css';
+import styles from "./ProjectSlider.module.css";
 
 const ProjectSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

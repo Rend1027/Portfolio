@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 import flo from "../../images/flo.png";
-import github from '../../images/github.png'
+import github from "../../images/github.png";
 import linkedin from "../../images/linkedin.png";
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
       </div>
       <a href="#github" className={styles.github}>
-        <img src={github} alt='Github'/>
+        <img src={github} alt="Github" />
       </a>
       <a href="#linkedin" className={styles.linkedin}>
         <img src={linkedin} alt="Linkedin" />
