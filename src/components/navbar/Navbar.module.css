@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.flo img {
+    color: black;
+}
+
+.linkedin img {
+  height: 30px;
+  width: auto;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.github img {
+    height: 40px;
+    width: auto;
+    padding-left: 150px;
+}
+
+.navLinks {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-nav li {
+  padding: 20px;
+}
+
+.navbar-nav {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+  color: yellow;
+}
+
+.navbar-nav a {
+  color: white;
+}
