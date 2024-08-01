@@ -1,9 +1,14 @@
-import Navbar from './components/navbar/Navbar';
-import './App.css';
+import Navbar from "./components/navbar/Navbar";
+import ProjectSlider from "./layout/RightSection/ProjectSlider/ProjectSlider";
+import "./App.css";
+import { Fragment } from "react";
 
 const App = () => {
   return (
-    <Navbar/>
+    <Fragment>
+      <Navbar />
+      <ProjectSlider />
+    </Fragment>
   );
 };
 
