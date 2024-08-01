@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from './ProjectSlider.module.css';
 
 const ProjectSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -26,14 +27,19 @@ const ProjectSlider = () => {
   };
 
   const previousSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + projectData.length) % projectData.length);
-  }
+    setCurrentSlide(
+      (prev) => (prev - 1 + projectData.length) % projectData.length
+    );
+  };
 
   return (
-    <div className="rightContainer">
+    <div className={styles.rightContainer}>
       <div>{projectData[currentSlide].title}</div>
       <div>{projectData[currentSlide].description}</div>
-      <img src={projectData[currentSlide].imageUrl} alt={projectData[currentSlide].title}/>
+      <img
+        src={projectData[currentSlide].imageUrl}
+        alt={projectData[currentSlide].title}
+      />
       <button onclick={previousSlide}>Previous</button>
       <button onclick={nextSlide}>Next</button>
     </div>
