@@ -1,15 +1,9 @@
-import Navbar from "./components/navbar/Navbar";
-import ProjectSlider from "./layout/RightSection/ProjectSlider/ProjectSlider";
 import "./App.css";
-import { Fragment } from "react";
+
+import MainLayout from "./layout/MainLayout/MainLayout";
 
 const App = () => {
-  return (
-    <Fragment>
-      <Navbar />
-      <ProjectSlider />
-    </Fragment>
-  );
+  return <MainLayout />;
 };
 
 export default App;
