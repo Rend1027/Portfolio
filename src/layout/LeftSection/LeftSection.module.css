@@ -1,0 +1,14 @@
+.leftSection {
+  background-color: black;
+  color: white; /* Changes the color of the Font */
+  padding-left: 100px; /* Adds padding on the left  */
+  width: 80%; /* Takes up 80% of the container */
+  height: 100vh; /* Full viewport height */
+}
+
+.image {
+  width: 50%; /* Changes the width to 50% of the original size */
+  height: 50%; /* Changes the height to 50% of the original size */
+  border-radius: 50%; /* Changes the border of the image to a perfect circle */
+  object-fit: cover; /* Ensures the image covers the area without being stretched */
+}

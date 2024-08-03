@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import github from "../../../images/github.png";
 import styles from "./ProjectSlider.module.css";
 
 const ProjectSlider = () => {
@@ -6,12 +7,12 @@ const ProjectSlider = () => {
 
   const projectData = [
     {
-      title: "Project 1",
+      title: "Yolo",
       description: "Deccription of Project 1",
-      imageUrl: "Url",
+      imageUrl: github,
     },
     {
-      title: "Project 2",
+      title: "Yolo",
       description: "Deccription of Project 1",
       imageUrl: "Url",
     },
@@ -23,7 +24,7 @@ const ProjectSlider = () => {
   ];
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev - 1) % projectData.length);
+    setCurrentSlide((prev) => (prev + 1) % projectData.length);
   };
 
   const previousSlide = () => {
@@ -34,14 +35,15 @@ const ProjectSlider = () => {
 
   return (
     <div className={styles.rightContainer}>
+      <h3 className={styles.header}>Some Of My Latest Work</h3>
       <div>{projectData[currentSlide].title}</div>
       <div>{projectData[currentSlide].description}</div>
       <img
         src={projectData[currentSlide].imageUrl}
         alt={projectData[currentSlide].title}
       />
-      <button onclick={previousSlide}>Previous</button>
-      <button onclick={nextSlide}>Next</button>
+      <button onClick={previousSlide}>Previous</button>
+      <button onClick={nextSlide}>Next</button>
     </div>
   );
 };
