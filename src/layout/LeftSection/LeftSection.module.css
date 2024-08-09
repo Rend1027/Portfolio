@@ -7,8 +7,8 @@
 }
 
 .image {
-  width: 50%; /* Changes the width to 50% of the original size */
-  height: 50%; /* Changes the height to 50% of the original size */
+  width: 25%; /* Changes the width to 50% of the original size */
+  height: 25%; /* Changes the height to 50% of the original size */
   border-radius: 50%; /* Changes the border of the image to a perfect circle */
   object-fit: cover; /* Ensures the image covers the area without being stretched */
 }
