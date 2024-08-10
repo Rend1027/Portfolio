@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import github from "../../../images/github.png";
+import gamingHub from "../../../assets/images/gamingHub.png";
+import underConstruction from "../../../assets/images/underConstruction.png";
 import styles from "./ProjectSlider.module.css";
 
 const ProjectSlider = () => {
@@ -7,19 +8,20 @@ const ProjectSlider = () => {
 
   const projectData = [
     {
-      title: "Yolo",
-      description: "Deccription of Project 1",
-      imageUrl: github,
+      title: "Gaming Hub",
+      description:
+        "A Hub where video game lovers can explore a massive library of video games.",
+      imageUrl: gamingHub,
     },
     {
-      title: "Yolo",
-      description: "Deccription of Project 1",
-      imageUrl: "Url",
+      title: "Under Construction2",
+      description: "",
+      imageUrl: underConstruction,
     },
     {
-      title: "Project 3",
-      description: "Deccription of Project 1",
-      imageUrl: "Url",
+      title: "Under Construction3",
+      description: "",
+      imageUrl: underConstruction,
     },
   ];
 
@@ -39,6 +41,7 @@ const ProjectSlider = () => {
       <div>{projectData[currentSlide].title}</div>
       <div>{projectData[currentSlide].description}</div>
       <img
+        className={styles.image1}
         src={projectData[currentSlide].imageUrl}
         alt={projectData[currentSlide].title}
       />

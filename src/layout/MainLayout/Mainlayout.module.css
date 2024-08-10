@@ -1,10 +1,11 @@
 .mainLayout {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh; /* Ensures layout takes the full viewport height */
 }
 
 .content {
-    flex-grow: 1;
-    display: flex;
+  flex: 1; /* Makes content area grow to fill available space */
+  display: flex;
+  flex-direction: row; /* Align LeftSection and ProjectSlider side by side */
 }

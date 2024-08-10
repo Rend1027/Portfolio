@@ -1,5 +1,5 @@
 import React from "react";
-import coverLetterPic from "../../images/coverLetterPic.jpg";
+import coverLetterPic from "../../assets/images/coverLetterPic.jpg";
 import styles from "./LeftSection.module.css";
 
 const LeftSection = () => {
