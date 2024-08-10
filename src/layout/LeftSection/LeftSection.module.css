@@ -4,7 +4,7 @@
   color: white; /* Changes the color of the Font */
   padding-left: 50px; /* Adds padding on the left  */
   width: 50%; /* Takes up 80% of the container */
-  height: 100vh; /* Full viewport height */
+  height: 75vh; /* Full viewport height */
 }
 
 .image {
