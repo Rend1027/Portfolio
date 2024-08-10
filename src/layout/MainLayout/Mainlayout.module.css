@@ -5,7 +5,7 @@
 }
 
 .content {
-  flex: 1; /* Makes content area grow to fill available space */
+  flex: 1;  /* Ensures the content area grows to fill available space */
   display: flex;
-  flex-direction: row; /* Align LeftSection and ProjectSlider side by side */
-}
+  flex-direction: column;  /* Adjust based on specific page needs */
+}  

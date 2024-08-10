@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logos {
+  background-color: gray;
+  .marquee {
+    width: 100vw;
+    max-width: 100%;
+    height: 128px;
+    overflow: hidden;
+    .track {
+      white-space: nowrap;
+      will-change: transform;
+      animation: marquee 40s linear infinite;
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+    }
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+img {
+  width: 128px;
+}
