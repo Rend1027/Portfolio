@@ -38,15 +38,23 @@ const ProjectSlider = () => {
   return (
     <div className={styles.rightContainer}>
       <h3 className={styles.header}>Some Of My Latest Work</h3>
-      <div>{projectData[currentSlide].title}</div>
-      <div>{projectData[currentSlide].description}</div>
-      <img
-        className={styles.image1}
-        src={projectData[currentSlide].imageUrl}
-        alt={projectData[currentSlide].title}
-      />
-      <button onClick={previousSlide}>Previous</button>
-      <button onClick={nextSlide}>Next</button>
+      <div className={styles.description}>
+        <h4>{projectData[currentSlide].title}</h4>
+        <p>{projectData[currentSlide].description}</p>
+      </div>
+      <div className={styles.sliderContainer}>
+        <button className={styles.prevButton} onClick={previousSlide}>
+          Previous
+        </button>
+        <img
+          className={styles.image}
+          src={projectData[currentSlide].imageUrl}
+          alt={projectData[currentSlide].title}
+        />
+        <button className={styles.nextButton} onClick={nextSlide}>
+          Next
+        </button>
+      </div>
     </div>
   );
 };
