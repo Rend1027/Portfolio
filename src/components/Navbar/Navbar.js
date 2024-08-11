@@ -3,35 +3,36 @@ import styles from "./Navbar.module.css";
 import flo from "../../assets/images/flo.png";
 import github from "../../assets/images/github.png";
 import linkedin from "../../assets/images/linkedin.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <a href="#home" className={styles.flo}>
+      <Link to="/" className={styles.flo}>
         <img src={flo} alt="Logo" />
-      </a>
+      </Link>
       <div className={styles.navLinks}>
         <ul className={styles["navbar-nav"]}>
           <li>
-            <a href="#home">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#contacts">Contact</a>
+            <Link to="/contacts">Contact</Link>
           </li>
         </ul>
       </div>
-      <a href="#github" className={styles.github}>
+      <Link to="#github" className={styles.github}>
         <img src={github} alt="Github" />
-      </a>
-      <a href="#linkedin" className={styles.linkedin}>
+      </Link>
+      <Link to="#linkedin" className={styles.linkedin}>
         <img src={linkedin} alt="Linkedin" />
-      </a>
+      </Link>
     </nav>
   );
 };
