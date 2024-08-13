@@ -1,0 +1,174 @@
+.aboutContainer {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: left;
+  max-width: 50%;
+}
+
+.work {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.subHeadText {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.timelineContainer {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+}
+
+.timelineContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background-color: #333;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.timelineBlock {
+  position: relative;
+  width: 100%;
+  /* margin-bottom: 50px; */
+  margin-bottom: 4rem;
+  display: flex;
+  /* align-items: center; */
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timelineIcon {
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+  /* animation: bounceIn 0.8s ease-out; */
+}
+
+.timelineItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* max-width: 400px; */
+  width: 100%;
+  min-height: 150px;
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  z-index: 1; /* Ensure items are above the timeline */
+}
+
+.left {
+  transform: translateX(-100vw);
+  justify-content: flex-end;
+  margin-right: calc(
+    50% + 60px
+  ); /* Adjust margin to keep cards near the line */
+}
+
+.right {
+  transform: translateX(100vw);
+  justify-content: flex-start;
+  margin-left: calc(50% + 60px); /* Adjust margin to keep cards near the line */
+}
+
+.inView {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.timelineItem.inView {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timelineItem.inView .timelineIcon {
+  opacity: 1;
+  /* transform: translateX(-50%) scale(1.2);  */
+  /* animation : bounceIn 1s ease-out; */
+}
+
+.timelineIcon.inView {
+  opacity: 1;
+  /* transform: translateX(-50%) scale(1.2);  */
+  animation: bounceIn 1s ease-out;
+}
+
+.timelineContent {
+  padding: 20px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  flex-grow: 1;
+  border-bottom: solid;
+  border-bottom-width: 8px;
+  border-color: #f7df1e;
+}
+
+.cardHeader {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.cardCompany {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.listContainer {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.cardDate {
+  font-size: 1rem;
+  color: #999;
+}
