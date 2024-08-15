@@ -1,10 +1,15 @@
 .leftSection {
-  
-  background-color: black;
-  color: white; /* Changes the color of the Font */
+  width: 35%;
+  /* max-width: 100%; */
+  /* background-color: black; */
+  color: black; /* Changes the color of the Font */
   padding-left: 50px; /* Adds padding on the left  */
-  width: 50%; /* Takes up 80% of the container */
-  height: 75vh; /* Full viewport height */
+  height: 65vh; /* Full viewport height */
+  border-right: solid;
+  border-color: black;
+  border-width: 8px;
+  margin-top: 2rem;
+  border-radius: 10%;
 }
 
 .image {

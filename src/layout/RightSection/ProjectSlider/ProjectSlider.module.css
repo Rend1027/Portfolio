@@ -1,12 +1,18 @@
 .rightContainer {
-  width: 100%;
-  max-width: 50%;
-  background-color: yellow;
+  width: 50%;
+  /* max-width: 50%; */
+  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 75vh;
+  height: 65vh;
+  /* border-style: solid; */
+  border-left: solid;
+  border-color: #f7df1e;
+  border-width: 8px;
+  margin-top: 2rem;
+  border-radius: 10%;
   
 }
 
@@ -47,9 +53,15 @@ align-items: center;
 }
 
 .prevButton {
-  margin-right: 20px;
+  margin-right: 10px;
+  border-radius: 15%;
+  padding: 12px;
 }
 
 .nextButton {
-  margin-left: 20px;
+  margin-left: 10px;
+  border-radius: 15%;
+  padding: 12px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
