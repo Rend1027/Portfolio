@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import flo from "../../assets/images/flo.png";
+import flo from "../../assets/images/flo(1).png";
 import styles from "./About.module.css";
 
 const About = () => {

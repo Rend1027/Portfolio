@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import flo from "../../assets/images/flo.png";
+import flo from "../../assets/images/flo(1).png";
 import github from "../../assets/images/github.png";
 import linkedin from "../../assets/images/linkedin.png";
 import { Link } from "react-router-dom";

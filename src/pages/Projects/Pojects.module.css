@@ -1,0 +1,68 @@
+.mainContainer {
+  /* height: 100vh; */
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.github {
+  height: 40px;
+}
+
+.live {
+  font-weight: bold;
+}
+.header a {
+  color: black;
+}
+.header a:hover {
+  color: #f7df1e;
+}
+
+.tech {
+  font-weight: bold;
+}
+.project {
+  max-width: 80%;
+  height: 250px;
+}
+
+.cards {
+  /* border-style: solid; */
+  width: 45rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.leftCard {
+  border-right-style: solid;
+  border-right-width: 8px;
+  border-color: #f7df1e;
+  border-left-style: solid;
+  border-left-width: 8px;
+  border-radius: 2rem;
+  margin-right: 25rem;
+}
+
+.rightCard {
+  border-left-style: solid;
+  border-left-width: 8px;
+  border-right-style: solid;
+  border-right-width: 8px;
+  border-color: black;
+  border-radius: 2rem;
+  margin-left: 25rem;
+}
