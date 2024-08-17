@@ -1,67 +1,89 @@
 .rightContainer {
-  width: 50%;
-  /* max-width: 50%; */
-  /* background-color: yellow; */
+  width: 100%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  height: 65vh;
-  /* border-style: solid; */
-  border-left: solid;
-  border-color: #f7df1e;
-  border-width: 8px;
+  height: auto;
+  padding: 1rem;
+  border-left: 8px solid #f7df1e;
+  border-right: 8px solid black;
   margin-top: 2rem;
   border-radius: 10%;
-  
-}
-
-.sliderContainer {
-  display: flex;
-  align-items: center;  /* Center the buttons and image vertically */
-  justify-content: center;  /* Center the content horizontally */
-  position: relative;
-  width: 100%;
-  max-width: 800px;
+  box-sizing: border-box;
 }
 
 .header {
   margin: 0;
+  text-align: center;
 }
 
 .description {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
+.sliderContainer {
+  display: flex;
+  align-items: center; 
+  justify-content: space-around; 
+  width: 100%;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  max-width: 100%;
+}
 
 .image {
-  display: block;
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
-  padding-top: 25px;
   border-radius: 10px;
 }
 
-.prevButton, .nextButton {
+.prevButton,
+.nextButton {
   background-color: #333;
   color: white;
   border: none;
-  padding: 10px 10px;
+  padding: 10px;
+  border-radius: 15%;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;  /* Prevent buttons from shrinking */
 }
 
-.prevButton {
-  margin-right: 10px;
-  border-radius: 15%;
-  padding: 12px;
+
+
+.prevButton:hover, .nextButton:hover {
+  background-color: #555;
 }
 
-.nextButton {
-  margin-left: 10px;
-  border-radius: 15%;
-  padding: 12px 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+@media (max-width: 768px) {
+  .rightContainer {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sliderContainer {
+    flex-direction: column;
+  }
+
+  .prevButton, .nextButton {
+    width: 20%;
+    border-radius: 15%;
+    margin: 5px 0;
+  }
+
+
 }
+
+
+
+

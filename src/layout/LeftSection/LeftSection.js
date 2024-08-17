@@ -6,7 +6,7 @@ const LeftSection = () => {
   return (
     <div className={styles.leftSection}>
       <h1 className={styles.header}>Fullstack Engineer</h1>
-      <img src={coverLetterPic} alt="" className={styles.image} />
+      <img src={coverLetterPic} alt="Flo's Profile" className={styles.image} />
     </div>
   );
 };

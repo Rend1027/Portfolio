@@ -1,20 +1,42 @@
 .leftSection {
-  width: 35%;
-  /* max-width: 100%; */
-  /* background-color: black; */
-  color: black; /* Changes the color of the Font */
-  padding-left: 50px; /* Adds padding on the left  */
-  height: 65vh; /* Full viewport height */
-  border-right: solid;
-  border-color: black;
-  border-width: 8px;
+  width: 100%;
+  max-width: 40%;
+  height: auto;
+  color: black;
+  padding: 1rem;
+  
+  border-right: 8px solid black;
+  border-left: 8px solid #f7df1e;
   margin-top: 2rem;
   border-radius: 10%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 1rem;
 }
 
 .image {
-  width: 25%; /* Changes the width to 50% of the original size */
-  height: 25%; /* Changes the height to 50% of the original size */
+  width: 20%; /* Changes the width to 50% of the original size */
+  height: auto; /* Changes the height to 50% of the original size */
   border-radius: 50%; /* Changes the border of the image to a perfect circle */
   object-fit: cover; /* Ensures the image covers the area without being stretched */
+  /* margin: 1rem auto; */
+}
+
+@media (max-width: 768px) {
+  .leftSection {
+    max-width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .image {
+    width: 50%;
+  }
 }

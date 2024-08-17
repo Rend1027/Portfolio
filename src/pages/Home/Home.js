@@ -11,9 +11,7 @@ const Home = () => {
         <LeftSection />
         <ProjectSlider />
       </div>
-      <div >
-        <LogoTrack />
-      </div>
+      <LogoTrack />
     </div>
   );
 };
