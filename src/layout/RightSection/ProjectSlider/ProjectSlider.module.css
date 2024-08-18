@@ -20,7 +20,6 @@
 
 .description a {
   color: black;
-  
 }
 a:hover {
   color: #f7df1e;
@@ -87,5 +86,11 @@ a:hover {
     width: 20%;
     border-radius: 15%;
     margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .prevButton {
+    padding-right: 60px;
   }
 }

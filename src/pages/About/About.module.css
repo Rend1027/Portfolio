@@ -178,3 +178,41 @@
   font-size: 1rem;
   color: #999;
 }
+
+@media (max-width: 480px)  {
+  .greeting {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    font-size: .8rem;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .subHeadText {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .text {
+    font-size: .8rem;
+    max-width: 100%;
+  }
+
+  .work {
+    padding: 2rem 0;
+  }
+
+  .timelineContent {
+    font-size: .8rem;
+  }
+
+  .cardHeader {
+    font-size: 1rem;
+  }
+
+  .cardCompany {
+    font-size: 1rem;
+  }
+}
