@@ -3,7 +3,7 @@
   max-width: 40%;
   height: auto;
   color: black;
-  padding: 1rem; 
+  padding: 1rem;
   /* border-right: 8px solid black;
   border-left: 8px solid #f7df1e; */
   margin-top: 2rem;
@@ -37,5 +37,15 @@
 
   .image {
     width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .leftSection {
+    margin-top: 0;
+  }
+
+  .header {
+    margin-top: 0;
   }
 }

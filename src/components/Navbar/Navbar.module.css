@@ -86,18 +86,25 @@
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 480px) {
   .linkedin img,
   .github img {
     height: 25px; /* Further reduce icon size */
     padding: 0 3px;
+    margin-left: .1rem;
+    margin-right: 0;
   }
 
   .navbar-nav li {
     padding: 0 5px; /* Further reduce padding */
   }
 
+  .navbar-nav {
+    padding-left: .5rem;
+    margin-right: 0;
+  }
+
   .flo img {
-    height: 25px; /* Further reduce logo size */
+    height: 25px; 
   }
 }
