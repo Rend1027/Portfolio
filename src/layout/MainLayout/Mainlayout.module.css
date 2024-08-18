@@ -1,6 +1,7 @@
 .mainLayout {
   display: flex;
   flex-direction: column;
+  min-width: 100vw;
   min-height: 100vh; /* Ensures layout takes the full viewport height */
   background-color: #f4f4f4;
   box-sizing: border-box;
@@ -14,7 +15,7 @@
     /* Adjust based on specific page needs */
 }  
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .content {
     padding: 0.5rem;
   }
@@ -24,4 +25,4 @@
   .content {
     padding: 2rem;
   }
-}
+} */

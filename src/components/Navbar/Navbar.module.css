@@ -6,6 +6,7 @@
   align-items: center;
   padding: 0 20px;
   box-sizing: border-box;
+  overflow: hidden
 }
 
 .flo img {
@@ -18,7 +19,8 @@
   height: 40px;
   width: auto;
   padding: 0 10px;
-  margin: 0 2rem;
+  margin: 0 1rem;
+  flex-shrink: 1; /* Allow the icons to shrink */
 
 } 
 
@@ -41,7 +43,7 @@
 }
 
 .navbar-nav li {
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
 }
@@ -71,7 +73,7 @@
 
   .linkedin img,
   .github img {
-    height: 25px; /* Smaller icons for better fit */
+    height: 30px; /* Smaller icons for better fit */
     padding: 0 5px;
   }
 
@@ -80,10 +82,22 @@
   }
 
   .flo img {
-    height: 35px; /* Adjust the logo size for smaller screens */
+    height: 30px; /* Adjust the logo size for smaller screens */
   }
 }
 
 @media (max-width: 445px) {
-  
+  .linkedin img,
+  .github img {
+    height: 25px; /* Further reduce icon size */
+    padding: 0 3px;
+  }
+
+  .navbar-nav li {
+    padding: 0 5px; /* Further reduce padding */
+  }
+
+  .flo img {
+    height: 25px; /* Further reduce logo size */
+  }
 }

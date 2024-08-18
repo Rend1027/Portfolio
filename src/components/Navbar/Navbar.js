@@ -30,7 +30,8 @@ const Navbar = () => {
       <a href="https://github.com/Rend1027" className={styles.github}>
         <img src={github} alt="Github" />
       </a>
-      <a href="https://linkedin.com/in/florencio-rendon"
+      <a
+        href="https://linkedin.com/in/florencio-rendon"
         className={styles.linkedin}
       >
         <img src={linkedin} alt="Linkedin" />
