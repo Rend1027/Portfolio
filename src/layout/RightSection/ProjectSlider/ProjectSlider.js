@@ -11,17 +11,20 @@ const ProjectSlider = () => {
       title: "Gaming Hub",
       description:
         "A Hub where video game lovers can explore a massive library of video games.",
-      imageUrl: gamingHub,
+      image: gamingHub,
+      demo: "https://video-game-site-three.vercel.app/",
     },
     {
       title: "Under Construction2",
       description: "",
-      imageUrl: underConstruction,
+      image: underConstruction,
+      demo: "https://video-game-site-three.vercel.app/",
     },
     {
       title: "Under Construction3",
       description: "",
-      imageUrl: underConstruction,
+      image: underConstruction,
+      demo: "https://video-game-site-three.vercel.app/",
     },
   ];
 
@@ -39,7 +42,9 @@ const ProjectSlider = () => {
     <div className={styles.rightContainer}>
       <h3 className={styles.header}>Some Of My Latest Work</h3>
       <div className={styles.description}>
-        <h4>{projectData[currentSlide].title}</h4>
+        <a href={projectData[0].demo}>
+          <h4 className={styles.name}>{projectData[currentSlide].title}</h4>
+        </a>
         <p>{projectData[currentSlide].description}</p>
       </div>
       <div className={styles.sliderContainer}>
@@ -48,7 +53,7 @@ const ProjectSlider = () => {
         </button>
         <img
           className={styles.image}
-          src={projectData[currentSlide].imageUrl}
+          src={projectData[currentSlide].image}
           alt={projectData[currentSlide].title}
         />
         <button className={styles.nextButton} onClick={nextSlide}>

@@ -27,12 +27,14 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <Link to="#github" className={styles.github}>
+      <a href="https://github.com/Rend1027" className={styles.github}>
         <img src={github} alt="Github" />
-      </Link>
-      <Link to="#linkedin" className={styles.linkedin}>
+      </a>
+      <a href="https://linkedin.com/in/florencio-rendon"
+        className={styles.linkedin}
+      >
         <img src={linkedin} alt="Linkedin" />
-      </Link>
+      </a>
     </nav>
   );
 };

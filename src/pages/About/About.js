@@ -97,30 +97,40 @@ const About = () => {
         Hello, I'm Florencio but you can call me Flo
       </h1>
       <p className={styles.intro}>
-        I'm a Fullstack Software Engineer based in NYC. I enjoy watching anime
-        on my down time and learning new technology when ever in not working. My
-        core skill is based on JavaScript and I love to do most of the things
-        using JavaScript. I am available for any kind of job opportunity that
-        suits my skills and interests.
+        I'm a Full Stack Software Engineer based in NYC with a core focus on
+        JavaScript. While JavaScript is my primary language, I am always eager
+        to explore new languages. I am open to new opportunites and to work with
+        you in the near future.
         <br />
         <br />
-        I served nine years in the Army of The United States of America which
-        has instilled in me discipline and work ethic that is second to none. I
-        look forward to applying my skills and work ethic in every single
-        project and job offer.
+        I proudly served nine years in the United States Army where I developed
+        the discipline and work ethic that I now bring to every project. From my
+        early days as a Private learning to follow orders to my role as a
+        Sergeant leading a team of soldiers, I've honed principles of
+        leadership, dedication, and teamwork. I’m eager to apply these same
+        principles in the tech field and look forward to the opportunity to work
+        and grow together.
         <br />
         <br />
         Currently I am an undergrade at BMCC pursuing my Computer Science
-        degree.
+        degree. I have a beautiful wife and two children, a 2 year old and a 4
+        year old. My family is the main reason I decided to go back to school.
+        Without the support of my wife I would still be working as carpenter
+        dreaming of what could have been , "unburdened by what has been". In my
+        downtime, I enjoy watching anime and make it a priority to stay active,
+        after all, they say that sitting is the new smoking.
       </p>
       <section className={styles.work}>
         <h3 className={styles.subHeadText}>Work Experience</h3>
-        <p>
-          Despite not having any work experiance in this field at the moment, I
-          do have coding experiance and I encourage you to check them out under
-          the projects tab.
+        <p className={styles.text}>
+          While I am currently building my professional experiance in the field,
+          I have honed my skills through a variety of coding projects, which you
+          can explore under the Projects tab. Like many great Software
+          Engineers, I am eager to translate my coding experience into impactful
+          contributions
           <em>
-            All great Software Engineers started with zero working experiance.
+            . Every expert was once a beginner, and I'm excited to grow and
+            learn.
           </em>
         </p>
         <div className={styles.timelineContainer}>

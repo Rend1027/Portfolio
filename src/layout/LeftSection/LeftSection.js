@@ -5,7 +5,7 @@ import styles from "./LeftSection.module.css";
 const LeftSection = () => {
   return (
     <div className={styles.leftSection}>
-      <h1 className={styles.header}>Fullstack Engineer</h1>
+      <h1 className={styles.header}>Full Stack Software Engineer</h1>
       <img src={coverLetterPic} alt="Flo's Profile" className={styles.image} />
     </div>
   );

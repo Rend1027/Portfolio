@@ -14,27 +14,26 @@ const LogoTrack = () => {
       <div className={styles.marquee}>
         <div className={styles.track}>
           <img src={azure} alt="Azure" />
-          <img src={css} alt="CSS" />
           <img src={html} alt="HTML" />
+          <img src={css} alt="CSS" />
           <img src={javascript} alt="Javascript" />
-          <img src={nextjs} alt="Nextjs" />
           <img src={vscode} alt="VScode" />
+          <img src={nextjs} alt="Nextjs" />
           <img src={react} alt="React" />
           <img src={azure} alt="Azure" />
-          <img src={css} alt="CSS" />
           <img src={html} alt="HTML" />
+          <img src={css} alt="CSS" />
           <img src={javascript} alt="Javascript" />
-          <img src={nextjs} alt="Nextjs" />
           <img src={vscode} alt="VScode" />
+          <img src={nextjs} alt="Nextjs" />
           <img src={react} alt="React" />
           <img src={azure} alt="Azure" />
-          <img src={css} alt="CSS" />
           <img src={html} alt="HTML" />
+          <img src={css} alt="CSS" />
           <img src={javascript} alt="Javascript" />
-          <img src={nextjs} alt="Nextjs" />
           <img src={vscode} alt="VScode" />
+          <img src={nextjs} alt="Nextjs" />
           <img src={react} alt="React" />
-          
         </div>
       </div>
     </div>
