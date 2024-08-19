@@ -37,10 +37,9 @@
 }
 
 .text {
-  text-align:justify;
+  text-align: justify;
   font-size: 1.2rem;
   color: #333;
-  
 }
 .timelineContainer {
   position: relative;
@@ -172,7 +171,7 @@
 }
 
 .listContainer {
-  list-style-type: none;
+  /* list-style-type: none; */
   padding: 0;
   margin-bottom: 10px;
 }
@@ -182,7 +181,7 @@
   color: #999;
 }
 
-@media (max-width: 480px)  {
+@media (max-width: 480px) {
   .aboutContainer {
     min-width: 100vw;
     padding: 0 12px;
@@ -192,7 +191,7 @@
   }
 
   .intro {
-    font-size: .8rem;
+    font-size: 0.8rem;
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -203,7 +202,7 @@
   }
 
   .text {
-    font-size: .8rem;
+    font-size: 0.8rem;
     max-width: 100%;
   }
 
@@ -211,13 +210,17 @@
     padding: 2rem 0;
   }
 
-  .timelineItem {
-    /* margin: 0; */
-  }
+  /* .timelineItem {
+    margin: 0;
+  } */
 
   .timelineContent {
-    font-size: .7rem;
-    padding: 0;
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+
+  .listContainer {
+    padding-left: 15px;
   }
 
   .cardHeader {
@@ -233,23 +236,25 @@
     transform: translateX(-100vw);
     justify-content: flex-end;
     margin-right: calc(
-      50% + 15px
+      50% + 11px
     ); /* Adjust margin to keep cards near the line */
   }
-  
+
   .right {
     transform: translateX(100vw);
     justify-content: flex-start;
-    margin-left: calc(50% + 15px); /* Adjust margin to keep cards near the line */
+    margin-left: calc(
+      50% + 11px
+    ); /* Adjust margin to keep cards near the line */
   }
 
   .timelineIcon {
-    left: 42.5%;
+    left: 42.6%;
   }
 
   .timelineIcon.inView {
     img {
-      width: 30px;
+      width: 20px;
     }
   }
 }
