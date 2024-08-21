@@ -27,7 +27,12 @@
 
 @media (max-width: 480px) {
   .mainContent {
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
+    gap: 0;
+  }
+
+  .homeContainer {
+    padding: .5rem;
   }
 
  

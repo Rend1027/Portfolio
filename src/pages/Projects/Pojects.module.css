@@ -83,16 +83,16 @@
 
   .cards {
     width: 90vw;
-    height: 22rem;
+    height: 19rem;
     font-size: 0.8rem;
     border-width: 5px;
-    padding: 0.5rem;
+    padding: 0.2rem;
     box-sizing: border-box;
+    margin: 0.5rem 0;
   }
-
   .project {
     max-width: 75%;
-    max-height: 25%;
+    max-height: 35%;
     margin-top: 0.8rem;
   }
 

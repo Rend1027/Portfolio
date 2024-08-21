@@ -43,6 +43,7 @@
 @media (max-width: 480px) {
   .leftSection {
     margin-top: 0;
+    padding: 0;
   }
 
   .header {
