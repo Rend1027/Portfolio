@@ -184,7 +184,7 @@
 @media (max-width: 480px) {
   .aboutContainer {
     min-width: 100vw;
-    padding: 0 12px;
+    padding: 0 10px;
   }
   .greeting {
     font-size: 1.5rem;

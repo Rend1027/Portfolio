@@ -66,12 +66,13 @@ a:hover {
   background-color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .rightContainer {
     max-width: 100%;
     padding: 0.5rem;
     border-width: 5px;
     box-sizing: border-box;
+    margin-top: 0rem;
   }
 
   .image {
@@ -79,19 +80,30 @@ a:hover {
     height: auto;
   }
 
+  h4 {
+    margin: 0.5rem 0;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  .description {
+    margin: 0;
+  }
+
   .sliderContainer {
     flex-direction: column;
+    gap: 0.3rem;
   }
 
   .prevButton,
   .nextButton {
     width: 20%;
     border-radius: 15%;
-    margin: 5px 0;
+    /* margin: 5px 0; */
   }
-}
 
-@media (max-width: 480px) {
   .prevButton {
     padding-right: 60px;
   }
