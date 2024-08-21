@@ -70,6 +70,8 @@ a:hover {
   .rightContainer {
     max-width: 100%;
     padding: 0.5rem;
+    border-width: 5px;
+    box-sizing: border-box;
   }
 
   .image {

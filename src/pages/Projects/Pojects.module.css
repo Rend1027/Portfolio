@@ -32,7 +32,7 @@
 }
 .project {
   max-width: 80%;
-  height: 250px;
+  max-height: 50%;
 }
 
 .cards {
@@ -65,4 +65,38 @@
   border-color: black;
   border-radius: 2rem;
   margin-left: 25rem;
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    margin-top: 1rem;
+  }
+  .leftCard {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .rightCard {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cards {
+    width: 90vw;
+    height: 22rem;
+    font-size: 0.8rem;
+    border-width: 5px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  .project {
+    max-width: 75%;
+    max-height: 25%;
+    margin-top: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
 }

@@ -42,16 +42,15 @@ const Contact = () => {
             />
             <br />
 
-            <label htmlFor="message" className={styles.label} >
-             <span className="text">Message</span> 
+            <label htmlFor="message" className={styles.label}>
+              <span className="text">Message</span>
             </label>
             <br />
             <textarea
-              id="message"
+              id={styles.message}
               className={styles.formMessage}
               name="message"
               rows={4}
-              cols={50}
               placeholder="write your message here"
               required
             />
