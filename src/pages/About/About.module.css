@@ -194,6 +194,7 @@
     font-size: 0.8rem;
     max-width: 100%;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   .subHeadText {
@@ -207,7 +208,8 @@
   }
 
   .work {
-    padding: 2rem 0;
+    padding: 0;
+    margin-top: .5rem;
   }
 
   /* .timelineItem {
