@@ -16,13 +16,13 @@ const ProjectSlider = () => {
     },
     {
       title: "Under Construction2",
-      description: "",
+      description: "Something is brewing",
       image: underConstruction,
       demo: "https://video-game-site-three.vercel.app/",
     },
     {
       title: "Under Construction3",
-      description: "",
+      description: "Something is brewing",
       image: underConstruction,
       demo: "https://video-game-site-three.vercel.app/",
     },

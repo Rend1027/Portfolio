@@ -1,8 +1,14 @@
 .mainContainer {
+  /* max-width: 25%; */
+  /* min-height: 700px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100dvh;
+  /* max-height: 100vh; */
+  margin: auto auto;
+  /* gap: 3rem; */
+  padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 .cardContainer {
@@ -11,13 +17,16 @@
   border-style: solid;
   /* border-width: 8px; */
   /* border-left-color: yellow; */
-  width: 500px;
-  height: 500px;
+  /* width: 500px; */
+  /* height: 500px; */
   /* margin-top: 5rem; */
   /* margin-left: 5rem; */
+  max-width: 500px;
+  /* max-height: 700px; */
   border-radius: 2rem;
   padding: 1rem;
   background-color: #f7df1e;
+  box-sizing: border-box;
 }
 
 .formFieldset {
@@ -25,6 +34,7 @@
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 
 .formLegend {
@@ -61,8 +71,8 @@ textarea:focus {
 
 @media (max-width: 480px) {
   .cardContainer {
-    width: 89vw;
-    height: 60vh;
+    /* width: 89vw; */
+    /* height: 60vh; */
     box-sizing: border-box;
   }
 

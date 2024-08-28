@@ -1,27 +1,29 @@
 .leftSection {
-  width: 100%;
-  max-width: 40%;
-  height: auto;
-  color: black;
+  /* width: 100%; */
+  /* max-width: 40%; */
+  /* height: auto; */
+  /* color: black; */
   padding: 1rem;
   /* border-right: 8px solid black;
   border-left: 8px solid #f7df1e; */
-  margin-top: 2rem;
-  border-radius: 10%;
+  /* margin-top: 2rem; */
+  /* border-radius: 10%; */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  /* border-style: solid; */
+  /* border-color: aqua; */
 }
 
 .header {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .image {
-  width: 20%; /* Changes the width to 50% of the original size */
+  width: 30%; /* Changes the width to 50% of the original size */
   height: auto; /* Changes the height to 50% of the original size */
   border-radius: 50%; /* Changes the border of the image to a perfect circle */
   object-fit: cover; /* Ensures the image covers the area without being stretched */
