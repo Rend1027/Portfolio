@@ -1,7 +1,5 @@
 .container {
-  /* margin-top: 2rem; */
   position: relative;
-  /* top: 13rem; */
   margin-bottom: 1rem;
   margin-inline: auto;
   max-width: 95%;
@@ -10,8 +8,6 @@
   border-radius: 20px;
   border-bottom: 8px solid #f7df1e;
   overflow: hidden;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .logos {
@@ -23,7 +19,6 @@
     border-radius: 20px;
     width: 100%;
     max-width: 100%;
-    /* height: 128px; */
     overflow: hidden;
     .track {
       white-space: nowrap;
@@ -31,9 +26,6 @@
       animation: marquee 40s linear infinite;
       display: flex;
       justify-content: space-between;
-      /* justify-items: center; */
-      /* align-content: center; */
-      /* align-items: center; */
       gap: 50px;
     }
   }
@@ -50,9 +42,9 @@
 
 @media (max-width: 480px) {
   .container {
-    width: 95%;
     height: 65px;
     margin: 0;
+    margin-inline: auto;
   }
 
   .logos {
@@ -64,7 +56,6 @@
       border-radius: 20px;
       width: 100%;
       max-width: 100%;
-      /* height: 128px; */
       overflow: hidden;
       .track {
         white-space: nowrap;
