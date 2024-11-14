@@ -113,12 +113,8 @@ const About = () => {
         <br />
         <br />
         Currently I am an undergrade at BMCC pursuing my Computer Science
-        degree. I have a beautiful wife and two children, a 2 year old and a 4
-        year old. My family is the main reason I decided to go back to school.
-        Without the support of my wife I would still be working as carpenter
-        dreaming of what could have been , "unburdened by what has been". In my
-        downtime, I enjoy watching anime and make it a priority to stay active,
-        after all, they say that sitting is the new smoking.
+        degree. In my downtime, I enjoy watching anime and make it a priority to
+        stay active, sitting is the new smoking after all.
       </p>
       <section className={styles.work}>
         <h3 className={styles.subHeadText}>Work Experience</h3>
